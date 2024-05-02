@@ -3,6 +3,15 @@
 - sudo apt upgrade
 # Install library
 - sudo apt install -y wget git proot automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ build-essential yasm libboost-all-dev libdb++-dev dos2unix unzip
+# Install Driver GPU AMD
+- Download file DEB driver to folder home/download
+- wget https://repo.radeon.com/amdgpu-install/23.40.2/ubuntu/focal/amdgpu-install_6.0.60002-1_all.deb
+- cd download
+- sudo apt install -f ./"file name"
+- amdgpu-install
+- glxinfo -B
+- lshw -c video
+
 # Install and user NVTOP with GPU NVIDIA
 - sudo apt install nvtop
 - (Run)
