@@ -14,9 +14,18 @@
 
 # 4 Useful Tools to Monitor CPU and GPU Temperature in Ubuntu
 ### lm-sensors
+- sudo apt-get install lm-sensors
+- sudo sensors-detect
+- sensors
+- Noted : No real-time tracking
 ### Psensor
+- sudo apt-get install psensor
+- launch Psensor from Applications menu
 ### Gnome System Monitor
+- Click on icon to launch tool
 ### Conky
+- sudo apt-get install conky-all
+- conky
 ### Hardinfo
 - sudo apt-get install hardinfo
 - launch it from applications menu
@@ -27,8 +36,7 @@
 - htop
 - press "F2" key to open setup menu
 - then navigate to "Columns" section and select "CPU temp" and/or "GPU temp".
-    
-
+  
 # Install cpuminer 2.4
 - sudo wget http://sourceforge.net/projects/cpuminer/files/pooler-cpuminer-2.4.tar.gz
 - tar xzf pooler-cpuminer-2.4.tar.gz
