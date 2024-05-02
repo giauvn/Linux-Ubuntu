@@ -11,7 +11,8 @@
 - amdgpu-install
 - glxinfo -B
 - lshw -c video
-
+# Install Driver GPU NVIDIA
+- Reference : https://ubuntu.com/server/docs/nvidia-drivers-installation
 # Install and user NVTOP with GPU NVIDIA
 - sudo apt install nvtop
 - (Run)
