@@ -8,9 +8,9 @@
 - (Run)
 - Nvtop
 - (or)
-   nvidia-smi
- or
-   nvidia-smi -h
+- nvidia-smi
+- (or)
+-- nvidia-smi -h
 
 # 4 Useful Tools to Monitor CPU and GPU Temperature in Ubuntu
 
