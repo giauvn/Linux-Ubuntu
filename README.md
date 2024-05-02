@@ -10,24 +10,23 @@
 - (or)
 - nvidia-smi
 - (or)
--- nvidia-smi -h
+- nvidia-smi -h
 
 # 4 Useful Tools to Monitor CPU and GPU Temperature in Ubuntu
-
-  - lm-sensors
-  - Psensor
-  - Gnome System Monitor
-  - Conky
-  - Hardinfo
-    sudo apt-get install hardinfo
-  launch it from applications menu
-  view your CPU and GPU temperature, click on "Sensors" tab in Hardinfo window.
-  - Htop
-    sudo apt-get install htop
-  run
-    htop
-    press "F2" key to open setup menu
-    then navigate to "Columns" section and select "CPU temp" and/or "GPU temp".
+### lm-sensors
+### Psensor
+### Gnome System Monitor
+### Conky
+### Hardinfo
+- sudo apt-get install hardinfo
+- launch it from applications menu
+- view your CPU and GPU temperature, click on "Sensors" tab in Hardinfo window.
+- Htop
+- sudo apt-get install htop
+- run
+- htop
+- press "F2" key to open setup menu
+- then navigate to "Columns" section and select "CPU temp" and/or "GPU temp".
     
 
 # Install cpuminer 2.4
