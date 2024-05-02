@@ -1,8 +1,8 @@
 # Linux-Ubuntu update
-sudo apt update
-sudo apt upgrade
+### sudo apt update
+### sudo apt upgrade
 # Install library
-sudo apt install -y wget git proot automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ build-essential yasm libboost-all-dev libdb++-dev dos2unix unzip
+### sudo apt install -y wget git proot automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ build-essential yasm libboost-all-dev libdb++-dev dos2unix unzip
 
  # Install and user NVTOP with GPU NVIDIA
  sudo apt install nvtop
