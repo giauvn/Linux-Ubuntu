@@ -30,25 +30,25 @@
     
 
 # Install cpuminer 2.4
-sudo wget http://sourceforge.net/projects/cpuminer/files/pooler-cpuminer-2.4.tar.gz
-tar xzf pooler-cpuminer-2.4.tar.gz
-cd cpuminer-2.4
-./configure CFLAGS="-O3 "
-make
-Run cpuminer2.4
-sudo ./minerd -o stratum+tcp://litecoinpool.org:3333 -u giauvn.5 -p 1 -a scrypt
-Noted :
-  -u = wallet.username
-  -p = pass
-  App can run in background, if you want to quit press CTRL + c
+- sudo wget http://sourceforge.net/projects/cpuminer/files/pooler-cpuminer-2.4.tar.gz
+- tar xzf pooler-cpuminer-2.4.tar.gz
+- cd cpuminer-2.4
+- ./configure CFLAGS="-O3 "
+- make
+#### Run cpuminer2.4
+- sudo ./minerd -o stratum+tcp://litecoinpool.org:3333 -u giauvn.5 -p 1 -a scrypt
+##### Noted :
+- -u = wallet.username
+- -p = pass
+- App can run in background, if you want to quit press CTRL + c
 
 # Install cpuminer-multi
-sudo git clone https://github.com/tpruvot/cpuminer-multi
-cd cpuminer-multi
-sudo ./build.sh
-Run cpuminer-multi
-sudo ./cpuminer -o stratum+tcp://litecoinpool.org:3333 -u giauvn.5 -p 1 -a scrypt
-Noted :
-  -u = wallet.username
-  -p = pass
-  App can run in background, if you want to quit press CTRL + c
+- sudo git clone https://github.com/tpruvot/cpuminer-multi
+- cd cpuminer-multi
+- sudo ./build.sh
+#### Run cpuminer-multi
+- sudo ./cpuminer -o stratum+tcp://litecoinpool.org:3333 -u giauvn.5 -p 1 -a scrypt
+#### Noted :
+- -u = wallet.username
+- -p = pass
+- App can run in background, if you want to quit press CTRL + c
