@@ -31,6 +31,7 @@
 ### Psensor
 - sudo apt-get install psensor
 - launch Psensor from Applications menu
+- Yes, real-time tracking
 ### Gnome System Monitor
 - Click on icon to launch tool
 ### Conky
@@ -40,7 +41,7 @@
 - sudo apt-get install hardinfo
 - launch it from applications menu
 - view your CPU and GPU temperature, click on "Sensors" tab in Hardinfo window.
-- Htop
+### Htop
 - sudo apt-get install htop
 - run
 - htop
